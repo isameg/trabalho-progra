@@ -4,10 +4,10 @@ body {
     flex-direction: column; /* Organiza os elementos verticalmente */
     justify-content: center; /* Centraliza no eixo vertical */
     align-items: center; /* Centraliza no eixo horizontal */
-    height: 100vh; /* Faz o body ocupar 100% da altura da tela */
+    height: 170vh; /* Faz o body ocupar 100% da altura da tela */
     margin: 0; /* Remove a margem padrão */
     text-align: center; /* Centraliza os textos */
-    background-color: rgba(231, 117, 231, 0.493); /* Cor de fundo opcional */
+    background-color: rgb(255, 134, 195); /* Cor de fundo opcional */
 }
 
 /* Estilo para a div que contém a imagem */
@@ -23,13 +23,33 @@ img {
 
 /* Estilo para o título h1 */
 h1 {
-    color: rgb(216, 110, 184);
+    color: rgb(248, 3, 236);
     margin-top: 20px; /* Espaço superior */
     font-size: 32px; /* Define o tamanho da fonte */
 }
 
-/* Estilo para o subtítulo h2 */
+/* Estilo para o título h2 */
 h2 {
-    color: rgba(108, 134, 219, 0.966);
+    color: rgb(223, 23, 9);
+    margin-top: 20px; /* Espaço superior */
+    font-size: 32px; /* Define o tamanho da fonte */
+}
+
+/* Estilo para o subtítulo h3 */
+h3 {
+    color: rgba(12, 12, 12, 0.966);
     margin-top: 10px; /* Espaço superior */
-    font-size: 24px; /* Define o tamanho da fonte */
+    font-size: 24px; /* Define o tamanho da fonte */ 
+}
+      
+
+/* Estilo para o subtítulo h4 */
+h4 {
+    color: rgba(214, 27, 158, 0.966);
+    margin-top: 10px; /* Espaço superior */
+    font-size: 24px; /* Define o tamanho da fonte */ 
+}
+body {
+    background-image: url('ROSA.jpeg');
+    background-size: cover;
+}
